@@ -1,0 +1,17 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+<h1>Filmoteca</h1>
+
+    <p>Bienvenido a <em>Filmoteca</em>, un página web que contiene datos de películas y sus directores</p>
+
+<h2>Contenido</h2>
+
+    <p><em>Filmoteca</em> tiene el siguiente registro:</p>
+    <ul>
+        <li><strong>Películas:</strong> {{ num_films }}</li>
+        <li><strong>Directores:</strong> {{ num_directors }}</li>
+    </ul>
+
+
+{% endblock %}
